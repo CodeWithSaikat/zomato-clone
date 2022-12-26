@@ -1,0 +1,52 @@
+.delivery-text{
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+    font-weight: 550;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.delivery-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 16px;
+    /* border: 1px solid red; */
+}
+.delivery-items-details{
+    display: flex;
+    align-items: center;
+}
+.brandImage{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.brandImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: var(--border-filter) 0.9px 0.6px 0.9px 0.5px;
+}
+.brandName{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: var(--brand-color);
+    font-weight: 600;
+}
+.brandTime{
+    color: var(--color);
+}
+.slick-prev:before{
+    font-size: 35px;
+    color: var(--color);
+}
+.slick-next:before{
+    font-size: 35px;
+    color: var(--color);
+}
+.slick-next{
+    color: red;
+    margin-left: -50px;
+}

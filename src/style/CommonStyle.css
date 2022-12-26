@@ -1,0 +1,13 @@
+.max-width{
+    max-width: 1110px;
+    margin: 0px auto;
+    /* background-color: gray; */
+}
+.icon-center, .all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cur-po{
+    cursor: pointer;
+}
